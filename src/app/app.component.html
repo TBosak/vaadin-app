@@ -1,4 +1,4 @@
-<vaadin-grid [items]="data" column-reordering-allowed multi-sort>
+<vaadin-grid #grid [items]="data" (click)="logSelected()" column-reordering-allowed multi-sort>
     <vaadin-grid-selection-column auto-select></vaadin-grid-selection-column>
     <vaadin-grid-sort-column path="firstName"></vaadin-grid-sort-column>
     <vaadin-grid-sort-column path="lastName"></vaadin-grid-sort-column>
