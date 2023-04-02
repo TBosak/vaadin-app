@@ -1,0 +1,6 @@
+vaadin-grid {
+    box-shadow: var(--shadow-1);
+    &:hover {
+        box-shadow: var(--shadow-3);
+    }
+}

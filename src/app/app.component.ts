@@ -2,6 +2,8 @@ import { AfterViewInit, Component, ElementRef, SimpleChanges, ViewChild } from '
 import '@vaadin/grid/vaadin-grid.js';
 import '@vaadin/grid/vaadin-grid-selection-column.js';
 import '@vaadin/grid/vaadin-grid-sort-column.js';
+import '@vaadin/grid/vaadin-grid-tree-column.js'
+import '@vaadin/crud/vaadin-crud.js'
 import { Grid } from '@vaadin/grid/vaadin-grid.js';
 
 @Component({
